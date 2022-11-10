@@ -1,5 +1,4 @@
 #!/bin/bash
 
-spark-submit --master local[*]  --app-name "HelloScala" "target/   
-
-./spark-submit --class scala.xke.local.HelloWorld MyFatJarFile.jar
+./compile.sh
+spark-submit --class xke.local.HelloWorld "target/word-count-0.0.1-SNAPSHOT.jar"  
