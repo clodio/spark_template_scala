@@ -1,4 +1,4 @@
-# Je veux être prêt pour le XKE
+# Projet spark en scala
 
 ## lancer les tests
 
