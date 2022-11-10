@@ -13,7 +13,7 @@ mvn test
 ## compiler
 
 ```bash
-mvn test
+mvn package
 ```
 
 ## lancer le projet
