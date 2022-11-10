@@ -1,9 +1,10 @@
 package xke.local
 
-import org.scalatest.{FunSuite, GivenWhenThen}
+import org.scalatest.{FunSuite, GivenWhenThen, Matchers}
 import spark.{DataFrameAssertions, SharedSparkSession}
+import java.util.regex.Matcher
 
-class HelloWorldTest extends FunSuite with GivenWhenThen with DataFrameAssertions {
+class HelloWorldTest extends FunSuite with GivenWhenThen with DataFrameAssertions with Matchers {
   val spark = SharedSparkSession.sparkSession
   import spark.implicits._
 
@@ -35,18 +36,18 @@ class HelloWorldTest extends FunSuite with GivenWhenThen with DataFrameAssertion
   }*/
 
 
-  test("je veux renommer la colonne des moyennes des numéros département") {
+  // test("je veux renommer la colonne des moyennes des numéros département") {
 
-    Given("une dataframe avec au moins 3 colonnes : nom région, code région et numéro département")
-    val input = ???
-    val expected = ???
+  //   Given("une dataframe avec au moins 3 colonnes : nom région, code région et numéro département")
+  //   val input = ???
+  //   val expected = ???
 
-    When("")
-    // val actual = HelloWorld.avgDepByReg(input)
+  //   When("")
+  //   // val actual = HelloWorld.avgDepByReg(input)
 
-    Then("")
-    // assertDataFrameEquals(actual, expected)
-    true shouldEqual true
-  }
+  //   Then("")
+  //   // assertDataFrameEquals(actual, expected)
+  //   // true shouldEqual  true
+  // }
 
 }
