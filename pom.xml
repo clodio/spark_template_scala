@@ -10,7 +10,7 @@
         <scala.exact.version>${scala.version}.17</scala.exact.version>
         <spark.version>3.3.0</spark.version>
         <hadoop.version>2.7.7</hadoop.version>
-        <scala.test.version>3.2.14</scala.test.version>
+        <scala.test.version>3.0.8</scala.test.version>
     </properties>
 
     <dependencies>
