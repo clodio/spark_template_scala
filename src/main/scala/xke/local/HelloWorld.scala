@@ -17,6 +17,11 @@ object HelloWorld {
 
   }
 
-  def avgDepByReg: DataFrame = ???
-  def renameColumn: DataFrame = ???
+  def avgDepByReg: DataFrame = spark.read.parquet("/test/cities/v1/parquet")
+  println("test")
+    // spark.read.parquet("/test/cities/v1/parquet")
+    // val parqDF = spark.read.parquet("/test/cities/v1/parquet")
+    
+
+  // def renameColumn: DataFrame = ???
 }

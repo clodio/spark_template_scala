@@ -1,3 +1,0 @@
-[local]
-spark-work-count_spark-worker_1 ansible_connection=docker ansible_user=root ansible_become=true
-spark-work-count_spark-master_1 ansible_connection=docker ansible_user=root ansible_become=true
