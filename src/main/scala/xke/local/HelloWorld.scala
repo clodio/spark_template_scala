@@ -14,14 +14,7 @@ object HelloWorld {
     //    code_region, avg_dep, nom_region
     // 3) renommer la colonne moyenne des départements en avg_dep
     // 4) écrire le fichier en parquet
+    avgDepByReg: DataFrame = spark.read.parquet("/test/cities/v1/parquet")
 
   }
-
-  def avgDepByReg: DataFrame = spark.read.parquet("/test/cities/v1/parquet")
-  println("test")
-    // spark.read.parquet("/test/cities/v1/parquet")
-    // val parqDF = spark.read.parquet("/test/cities/v1/parquet")
-    
-
-  // def renameColumn: DataFrame = ???
 }
