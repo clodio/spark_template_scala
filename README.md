@@ -1,5 +1,9 @@
 # Projet spark en scala
 
+La conversion en scala n'est pas termminée : to be continued
+
+**Moralité** : il faut partir sur le langage cible dès le départ car la conversion prend du temps....
+
 ## lancer les tests
 
 ```bash
